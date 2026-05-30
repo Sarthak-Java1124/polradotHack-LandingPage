@@ -27,9 +27,14 @@ export default function NavBar() {
           </a>
         </div>
 
-        <button className="bg-primary-container text-on-primary-container px-lg py-sm uppercase font-bold font-body active:scale-[0.98] transition-transform rounded glow-border">
+        <a
+          href="https://portalview-main.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary-container text-on-primary-container px-lg py-sm uppercase font-bold font-body active:scale-[0.98] transition-transform rounded glow-border"
+        >
           Launch App
-        </button>
+        </a>
       </div>
     </nav>
   );

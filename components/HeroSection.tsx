@@ -117,9 +117,14 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-wrap gap-md mt-md">
-            <button className="cta-pulse bg-primary-container text-on-primary-container px-xl py-md font-bold uppercase hover:bg-primary-fixed transition-colors glow-border rounded active:scale-[0.98]">
+            <a
+              href="https://portalview-main.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-pulse bg-primary-container text-on-primary-container px-xl py-md font-bold uppercase hover:bg-primary-fixed transition-colors glow-border rounded active:scale-[0.98]"
+            >
               Launch Review
-            </button>
+            </a>
             <button className="glass-panel text-text-primary px-xl py-md font-bold uppercase hover:border-primary-container hover:text-primary-container transition-colors glow-border-hover rounded active:scale-[0.98]">
               Watch Demo
             </button>

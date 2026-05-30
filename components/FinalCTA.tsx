@@ -7,12 +7,22 @@ export default function FinalCTA() {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-md">
-          <button className="cta-pulse bg-primary-container text-on-primary-container px-xl py-md font-bold uppercase hover:bg-primary-fixed transition-colors glow-border rounded active:scale-[0.98]">
+          <a
+            href="https://portalview-main.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-pulse bg-primary-container text-on-primary-container px-xl py-md font-bold uppercase hover:bg-primary-fixed transition-colors glow-border rounded active:scale-[0.98]"
+          >
             Launch Review
-          </button>
-          <button className="glass-panel text-text-primary px-xl py-md font-bold uppercase hover:border-primary-container hover:text-primary-container transition-colors glow-border-hover rounded active:scale-[0.98]">
+          </a>
+          <a
+            href="https://github.com/Sarthak-Java1124/portalview-main"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-panel text-text-primary px-xl py-md font-bold uppercase hover:border-primary-container hover:text-primary-container transition-colors glow-border-hover rounded active:scale-[0.98]"
+          >
             View GitHub
-          </button>
+          </a>
           <button className="glass-panel text-text-primary px-xl py-md font-bold uppercase hover:border-primary-container hover:text-primary-container transition-colors glow-border-hover rounded active:scale-[0.98]">
             Watch Demo
           </button>
